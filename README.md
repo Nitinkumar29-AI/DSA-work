@@ -1,7 +1,7 @@
 # DSA-work
 In this repository you will found work related to DSA in java and c++\
 
---------------------------------------LAB 1 WORK-------------------------------------------------
+--------------------------------------LAB 1 WORK-------------------------------------------------\n
 CODE 1 -  
 WRITE A PROGRAM TO ENTERING ARRAY AS A ROW MAJOR AND PRINT IT--
 CODE 2 
