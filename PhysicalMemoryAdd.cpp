@@ -15,12 +15,13 @@ int main()
         }
     }
     cout<<"enter the row and column of the elment whose add you want to search: "<<endl;
-    int row2,col2;
-    cin>>row2>>col2;
+    int i,j;
+    cin>>i>>j;
     //using row major formula
-    int* loc = &arr[0][0] + ((col2-col1)*((row1-0)+1))*sizeof(int) + (row2)*sizeof(int);
-    int* loc2 = &arr[0][0] + ((row2-0)*(row1 - 0 + 1))*sizeof(int) + (col2 - 0)*sizeof(int);
+    int *Rom = &arr[0][0] + ((i)*col1 + j);
+    int *Com = &arr[0][0] + ((j)*row1 + i);
 
-    cout<<"your memory address int CMO is "<<loc<<endl;
-    cout<<"your memory address int RMO is "<<loc2<<endl;
+    cout<<"your memory address int CMO is "<<Com<<endl;
+    cout<<"your memory address int RMO is "<<Rom<<endl;
+    cout<<"the actual memory address is : "<<&arr[i][j]<<endl;
 }
