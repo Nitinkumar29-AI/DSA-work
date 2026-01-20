@@ -13,7 +13,7 @@ int main()
     {
         cin>>arr[i];
     }
-    //sorting of array (n) complexity
+    //sorting of array (n^2) complexity
     for(int i=0;i<len-1;i++)
     {
         for(int j=0;j<len-i-1;j++)

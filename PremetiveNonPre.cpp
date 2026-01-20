@@ -6,7 +6,8 @@ struct Student {
     float marks;
 };
 
-int main() {
+int main() 
+{
     //Primitive data types 
     int a = 10;
     float b = 3.14f;
